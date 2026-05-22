@@ -1,26 +1,35 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Professional Store</title>
+    <title>متجري الاحترافي</title>
     <style>
-        body { font-family: 'Arial', sans-serif; text-align: center; background-color: #f4f4f4; padding: 50px; }
-        .product-card { background: white; padding: 20px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: inline-block; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f9f9f9; text-align: center; padding: 20px; }
+        .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+        .product-card { background: white; border-radius: 15px; padding: 20px; width: 250px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .product-card img { width: 100%; border-radius: 10px; }
+        .price { color: #28a745; font-size: 20px; font-weight: bold; margin: 10px 0; }
         .button { 
-            display: inline-block; padding: 15px 40px; 
-            background-color: #28a745; color: white; 
-            text-decoration: none; border-radius: 25px; 
-            font-weight: bold; font-size: 18px; margin-top: 20px;
+            display: block; background-color: #28a745; color: white; padding: 12px; 
+            text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="product-card">
-        <h1>Welcome to My Store</h1>
-        <p>Premium Products at Great Prices</p>
-        <a href="https://form.typeform.com/to/Mo8G8yNN" target="_blank" class="button">Order Now</a>
+
+    <h1>منتجاتنا المميزة</h1>
+    <div class="container">
+        
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="منتج">
+            <h3>اسم المنتج</h3>
+            <div class="price">100 ريال</div>
+            <a href="https://form.typeform.com/to/Mo8G8yNN" target="_blank" class="button">اطلب الآن</a>
+        </div>
+
     </div>
+
 </body>
 </html>
+
